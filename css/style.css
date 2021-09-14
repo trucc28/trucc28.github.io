@@ -356,6 +356,9 @@ button.contact-button {
 	body {
 		margin-right: -268px;
 	}
+	header {
+		height: 150px;
+	}
 	.home {
 		height: 850px;
 	}
