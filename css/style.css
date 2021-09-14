@@ -1,0 +1,398 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: Lato-Regular;
+	src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+@font-face {
+	font-family: Lato-Bold;
+	src: url("../fonts/Lato/Lato-Bold.ttf");
+}
+:root {
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-x:hidden;
+	font-family: Lato-Regular;
+	margin: auto;
+	color: #FFF;
+
+	
+}
+Header {
+	
+	height: 120px;
+	background-image:linear-gradient(to right,#ffad3a,#f7808a) ;
+	border-bottom: 1px solid #fff;
+}
+
+.header-navbar {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 42px;
+}
+
+.header-navbar .navbar-list .navbar-item {
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+.header-navbar .navbar-list a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header-navbar .navbar-list .navbar-item:hover{
+	opacity: 0.6
+}
+
+
+.home {
+	
+	height: 960px;
+	background-image: linear-gradient(to right,#ffad3a,#f7808a) ;
+	display: flex;
+	position: relative;
+}
+.home .content-home{
+	z-index: 10;
+	color:#FFF ;
+	text-align: left;
+	margin-top: 150px;
+	margin-left: 150px;
+}
+.home .content-home h2 {
+	font-size:40px;
+	margin-bottom: 20px;
+}
+.home .content-home p {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+button {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: none;
+	background-color: #2d63d1;
+	color: #FFf;
+}
+
+.home .img-home {
+	position: absolute;
+	right: 50px;
+	top: 20px;
+}
+/*about*/
+.about {
+	
+}
+.about .content-about {
+	z-index: 10;
+	color:#000 ;
+	text-align: left;
+	padding-top: 70px;
+	padding-left: 150px;
+	padding-bottom: 50px;
+	
+}
+
+.about .content-about h2 {
+	font-size:30px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.about .content-about p {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.about .about-img {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	padding-top: 100px;
+}
+
+.about .about-img .about-hinhduoi {
+	margin-left: 100px;
+	width: 400px;
+	height: 410px;
+
+}
+
+.about .about-img .about-hinhtren {
+	height: 500px;
+	position: absolute;
+	right: 40%;
+	top: 35%;
+
+}
+
+.services {
+	padding-top: 150px;
+	display: flex
+
+}
+.bong-den-img {
+	position: relative;
+	margin-left: 250px;
+	width:402px ;
+	height:402px ;
+}
+.dong-ho-img {
+	top: 40%;
+	position: absolute;
+	left: 10%;
+	width: 302px ;
+	height: 302px;
+
+}
+.nguoi-img {
+	position: absolute;
+	height: 282px;
+	left: 50%;
+	top: 80%;
+	width: 262px;
+	height: 282px;
+}
+.content-services {
+	color: ;#000
+}
+.content-services {
+	color: #000;
+	text-align: left;
+	padding-left: 120px;
+	padding-top: 130px;
+}
+.content-services h2 {
+	font-size: 36px;
+}
+
+.content-services p {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+/*projects*/
+.prọects {
+	margin-top: 200px;
+}
+.content-prọects {
+
+	color: #000;
+	padding-bottom: 70px;
+}
+.content-prọects h3 {
+	font-size: 36px;
+	padding-bottom: 20px;
+}
+.content-prọects em {
+	color: #8f949d;
+	font-size: 18px;
+}
+.list-hinh {
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/*blog*/
+.blog .content-blog {
+	margin-bottom: 70px;
+}
+.blog {
+	max-width: 1000px;
+	margin-top: 100px;
+} 
+
+.blog .content-blog h3 {
+	color: #000;
+	font-size:36px;
+	margin-bottom: 20px;
+}
+
+.blog .content-blog em {
+	color: #8f949d;
+	font-size: 18px;
+}
+
+.blog .row{
+	display: flex;
+
+}
+
+.box0 {
+	box-shadow:-5px 6px #f3f6f6
+	height: 440px;
+	margin-bottom: 70px;
+}
+
+.blog .box-info {
+	
+}
+.blog .box-info h4 {
+	color: #393e46	;
+	font-size:10px;
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: left;
+}
+
+.blog .box-info em {
+	color: #8f949d;
+	font-size: 16px;
+	text-align: left;
+	display: inline-block;
+}
+
+.box1 {
+	display: flex;
+	margin-left: -5px;
+	margin-bottom: 20px;
+}
+.box1 .box1-info h4 {
+	color: #000;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-align: left;
+	font-size: 22px;
+
+
+}
+.box1 .box1-info em {
+	transform: translateX(-97px);
+	color: #8f949d;
+	font-size: 13px;
+	display: inline-block;
+}
+
+/* contact */
+
+.contact {
+	margin-top: 80px;
+	background-image: url('../images/xanh.jpg')
+}
+
+.contact h3 {
+	padding-top: 40px;
+	color:#FFF ;
+	font-size: 36px;
+	margin-bottom: 25px;
+}
+.contact em {
+	color: #eeeeee;
+	font-size: 15px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+.text-center {
+	padding-bottom: 50px;
+}
+textarea.form-control{
+	height: 190px;
+}
+button.contact-button {
+	font-weight: 600;
+	margin-top: 30px;
+	margin-left: 170px;
+	background-image: linear-gradient(to right,#ffad3a,#f7808a) ;
+
+}
+
+.information {
+	background-color: #282f3a;
+}
+
+.information .row {
+	justify-content: space-evenly;
+	margin: auto;
+
+}
+.row .infobox{
+	padding-bottom: 100px;
+	width: 50%;
+	padding-left: 200px;
+	padding-top: 100px;
+}
+.row .infobox2 {
+	padding-bottom: 100px;
+	padding-left: 100px;
+	padding-top: 100px;
+}
+
+.row .infobox > img {
+	margin-bottom: 22px;
+}
+.row h5 {
+	font-size: 30px;
+}
+
+.row p {
+	color: #9aa2af;
+	font-size: 13px;
+	line-height: 25px;
+}
+.error {
+	color: red;
+	font-size: 16px;
+}
+
+.navbar.fixed-top {
+	background-color: rgba(255, 165, 0, 0.8);
+	padding-top: 0;
+	padding-bottom: 0;
+	animation: 1s menuAnimation;
+}
+
+@media (max-width: 768px){
+	body {
+		margin-right: -268px;
+	}
+	.home {
+		height: 850px;
+	}
+
+	.home .images-home {
+		width:657px ;
+		height:653px ;
+	}
+	.home .img-home {
+		right: 10px;
+	}
+
+	.about .about-img .about-hinhduoi {
+		margin-left: 130px;
+	}
+
+	.prọects {
+		margin-top: 100px;
+	}
+	.content-services {
+		padding-left: 150px;
+		padding-top: 180px;
+	}
+	.row .infobox{
+		padding-left: 0px;
+		padding-top: 100px
+	}
+	.row .infobox2 {
+		padding-bottom: 100px;
+		padding-left: 159px;
+		padding-top: 0px;
+	}
+	.blog .btn2 {
+		margin-top: 50px;
+	}
+	.blog .box-info  h4 {
+		text-align: center;
+	}
+}
+
